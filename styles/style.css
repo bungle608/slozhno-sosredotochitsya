@@ -14,14 +14,23 @@
 } 
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 
-.header {
+.cover {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
+  block-size: max(100vb, 640px);
+ 
+ 
 }
 
+
+.header {
+  align-items: start;
+
+}
+
+
 .decorated-zone {
- 
+ position: relative;
 }
 
 .decorated-zone::before,
@@ -36,12 +45,12 @@
   content: '';
   position: absolute;
   display: block;
-  border-inline-end: 1px solid var(--color-purple-2, #ff0070);
-  border-block-start: 1px solid var(---color-purple-2, #ff0070);
+  border-inline-end: 1px solid var(--theme-color, #ff0070);
+  border-block-start: 1px solid var(--theme-color, #ff0070);
   block-size: 25px;
   inline-size: 25px;
-  inset-inline-end: var(--general-padding, 10px);
-  inset-block-start: var(--general-padding, 10px);
+  inset-inline-end: 10px;
+  inset-block-start: 10px;
   
 }
 
@@ -49,15 +58,13 @@
   content: '';
   position: absolute;
   display: block;
-  border-inline-start: 1px solid var(--menu-color, #ff0070);
-  border-block-end: 1px solid var(--menu-color, #ff0070);
+  border-inline-start: 1px solid var(--theme-color, #ff0070);
+  border-block-end: 1px solid var(--theme-color, #ff0070);
   block-size: 25px;
   inline-size: 25px;
-  inset-inline-start: var(--general-padding, 10px);
-  inset-block-end: var(--general-padding, 10px);
+  inset-inline-start: 10px;
+  inset-block-end: 10px;
 }
-
-
 
 .rec-decor {
   position: absolute;
@@ -67,21 +74,41 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  line-height: 20px;
 }
 
 .rec-decor::before {
   content: "REC";
-  
-  color: var(--color-purple-2, #ff0070);
+  color: var(--theme-color, #ff0070);
 }
 
 .rec-decor::after {
   content: "";
-  border-radius: 100%;
-  box-shadow: 0 0 2px 2px var(--color-purple-2, #ff0070);
-  background: var(--color-purple-2, #ff0070);
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--theme-color, #ff0070);
+  background: var(--theme-color, #ff0070);
   inline-size: 9px;
   block-size: 9px;
   display: inline-block;
+}
+
+.page-title {
+  color: var(--page-title-color, #db00ff);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  line-height: 80%;
+  text-shadow: 4px 4px 0px var(--accent-color, #ff0070); 
+}
+
+
+.header-title {
+ 
+  
+  color: var(--subtitle-color, #000028);
+  font-size: inherit;
+  background: var(--accent-color, #ff0070);
+}
+
+
+.title {
+  color: var(--theme-color, #ff0070);
+  font-size: inherit;
 }

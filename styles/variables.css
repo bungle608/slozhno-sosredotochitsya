@@ -16,6 +16,11 @@
   --color-purple-1: #db00ff;
   --color-purple-2: #ff0070;
 
+
+  --subtitle-color: var(--color-black-1, #000028);
+  --theme-color: var(--color-purple-2, #ff0070);
+  --accent-color: var(--color-purple-2, #ff0070);  
+  --page-title-color: var(--color-purple-1, #db00ff);
   --rec-decor-visible: visible;
   --color-text: var(--color-pink-2, #f1b2ce);
   --font-family-page: "IBM Plex mono", monospace;
