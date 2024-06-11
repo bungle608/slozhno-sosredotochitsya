@@ -16,9 +16,11 @@
   --color-purple-1: #db00ff;
   --color-purple-2: #ff0070;
 
-  --font-family-page: "IBM Plex mono". monospace;
-  --page
-
-
+  --rec-decor-visible: visible;
+  --color-text: var(--color-pink-2, #f1b2ce);
+  --font-family-page: "IBM Plex mono", monospace;
+  --font-size: 18px;
+  --background-color-page: var(--color-black-1, #00);
+  --background-image-page: url("../images/cover-image.png");
 }
 

@@ -1,12 +1,16 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  color: var(--text-color, #f1b2ce);
-  font-size: 18px;
-  background-color: var(--page-background-color, #00028);
-  background-image: var(--page-background-image, url('../images/cover-image.png'));
+  color: var(--color-text, #f1b2ce);
+  font-family: var(--font-family-page, "IBM Plex mono", monospace);
+  font-size: var(--font-size, 18px);
+  background-color: var(--background-color-page, #000028);
+  background-image: var(--page-background-image, url("../images/cover-image.png"));
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  
 } 
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 
@@ -17,7 +21,7 @@
 }
 
 .decorated-zone {
-  position: relative;
+ 
 }
 
 .decorated-zone::before,
@@ -29,42 +33,55 @@
 }
 
 .decorated-zone::before {
-  border-block-start: 1px solid var(--secondary-color, #ff0070);
-  border-inline-end: 1px solid var(--secondary-color, #ff0070);
-  inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  content: '';
+  position: absolute;
+  display: block;
+  border-inline-end: 1px solid var(--color-purple-2, #ff0070);
+  border-block-start: 1px solid var(---color-purple-2, #ff0070);
+  block-size: 25px;
+  inline-size: 25px;
+  inset-inline-end: var(--general-padding, 10px);
+  inset-block-start: var(--general-padding, 10px);
+  
 }
 
 .decorated-zone::after {
-  border-inline-start: 1px solid var(--secondary-color, #ff0070);
-  border-block-end: 1px solid var(--secondary-color, #ff0070);
-  inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  content: '';
+  position: absolute;
+  display: block;
+  border-inline-start: 1px solid var(--menu-color, #ff0070);
+  border-block-end: 1px solid var(--menu-color, #ff0070);
+  block-size: 25px;
+  inline-size: 25px;
+  inset-inline-start: var(--general-padding, 10px);
+  inset-block-end: var(--general-padding, 10px);
 }
 
-.link {
-  text-decoration: none;
-}
 
-.link:hover {
-  text-decoration: underline;
-}
-
-.link:focus {
-  outline: 0;
-}
-
-.link:focus-visible {
-  outline: 1px solid currentColor;
-}
 
 .rec-decor {
   position: absolute;
-  z-index: -1;
-  visibility: var(--rec-decor-visibility, visible);
-  display: inline-flex;
+  visibility: var(--rec-decor-visible, visible);
+  inset-inline-end: 20px;
+  inset-block-start: 12px;
+  display: flex;
   align-items: center;
   gap: 10px;
-  inset-inline-end: 20px;
-  inset-block-start: 10px;
+  line-height: 20px;
+}
+
+.rec-decor::before {
+  content: "REC";
+  
+  color: var(--color-purple-2, #ff0070);
+}
+
+.rec-decor::after {
+  content: "";
+  border-radius: 100%;
+  box-shadow: 0 0 2px 2px var(--color-purple-2, #ff0070);
+  background: var(--color-purple-2, #ff0070);
+  inline-size: 9px;
+  block-size: 9px;
+  display: inline-block;
 }
