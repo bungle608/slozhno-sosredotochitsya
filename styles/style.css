@@ -139,7 +139,8 @@
 
 
 .main {
-  
+  display: grid;
+  gap: 80px;
   
 }
 
@@ -159,6 +160,7 @@
 .main__section-subtitle {
 color: var(--subtitle-color, #000028);
 background: var(--accent-color, #ff0070);
+font-size: inherit;
 }
 
 .article-list {
@@ -169,4 +171,18 @@ background: var(--accent-color, #ff0070);
 .article {
   display: grid;
   gap: 10px;
+}
+
+.section-what {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-start: span 2;
+}
+
+.section-how__subtitle {
+  font-weight: var(--font-normal, 400);
+}
+
+.section-how__subtitle:not(:first-child) {
+  margin-block-start: 20px;
+
 }
