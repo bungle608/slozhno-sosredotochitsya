@@ -48,8 +48,16 @@
 }
 
 .header__theme-menu-button:hover {
-
+  border-color: var(--hover-color, rgba(255, 0, 112, 0.40))
 } 
+
+.header__theme-menu-button:focus {
+  outline: 0;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-block-end-color: currentColor;
+}
 
 .decorated-zone {
  position: relative;
@@ -120,7 +128,6 @@
   text-shadow: 4px 4px 0px var(--accent-color, #ff0070);
   font-weight: var(--font-weight, 700); 
 }
-
 
 .subtitle {
   color: var(--subtitle-color, #000028);

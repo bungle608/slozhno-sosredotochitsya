@@ -15,8 +15,9 @@
 
   --color-purple-1: #db00ff;
   --color-purple-2: #ff0070;
+  --color-purple-hover: rgba(255, 0, 112, 0.40);
 
-
+  --hover-color: var(--color-purple-hover, rgba(255, 0, 112, 0.40));
   --subtitle-color: var(--color-black-1, #000028);
   --theme-color: var(--color-purple-2, #ff0070);
   --accent-color: var(--color-purple-2, #ff0070);  
