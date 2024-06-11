@@ -163,6 +163,27 @@ background: var(--accent-color, #ff0070);
 font-size: inherit;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 1px solid var(--color-text, #f1b2ce);
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
+  outline: 1px solid currentColor;
+}
+
+.shadow-decoration__link {
+  text-shadow: 2px 2px 0px var(--accent-color, #ff0070);
+
+}
+
 .article-list {
   display: grid;
   gap: 20px;
@@ -183,6 +204,6 @@ font-size: inherit;
 }
 
 .section-how__subtitle:not(:first-child) {
-  margin-block-start: 20px;
+  margin-block-start: 15px;
 
 }
