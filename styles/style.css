@@ -26,6 +26,31 @@
 }
 
 
+.header__theme-menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--theme-color, #ff0070);
+  text-transform: lowercase;
+  cursor: pointer;
+  padding: 2px 13px;
+}
+
+.header__theme-menu-button_active {
+  border-color: currentColor;
+  cursor: default;
+  pointer-events: none;
+}
+
+.header__theme-menu-button:hover {
+
+} 
+
 .decorated-zone {
  position: relative;
 }
