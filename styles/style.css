@@ -20,11 +20,9 @@
   block-size: max(100vb, 640px);
 }
 
-
 .header {
   align-items: start;
 }
-
 
 .header__theme-menu-list {
   display: flex;
@@ -80,8 +78,7 @@
   block-size: 25px;
   inline-size: 25px;
   inset-inline-end: 10px;
-  inset-block-start: 10px;
-  
+  inset-block-start: 10px;  
 }
 
 .decorated-zone::after {
@@ -137,11 +134,9 @@
   justify-self: end;
 }
 
-
 .main {
   display: grid;
   gap: 80px;
-  
 }
 
 .main__section {
@@ -181,7 +176,6 @@ font-size: inherit;
 
 .shadow-decoration__link {
   text-shadow: 2px 2px 0px var(--accent-color, #ff0070);
-
 }
 
 .article-list {
@@ -205,5 +199,4 @@ font-size: inherit;
 
 .section-how__subtitle:not(:first-child) {
   margin-block-start: 15px;
-
 }
