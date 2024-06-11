@@ -25,6 +25,7 @@
   --color-text: var(--color-pink-2, #f1b2ce);
   --font-family-page: "IBM Plex mono", monospace;
   --font-size: 18px;
+  --font-weight: 700;
   --background-color-page: var(--color-black-1, #00);
   --background-image-page: url("../images/cover-image.png");
 }
