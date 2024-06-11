@@ -2,3 +2,23 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+
+:root {
+  --color-pink-1: #fff1f7;
+  --color-pink-2: #f1b2ce;
+  --color-pink-3: #ffc2e6;
+  --color-pink-4: #ff8dcb;
+  
+  --color-black-1: #000028;
+  --color-black-2: #353430; 
+
+  --color-purple-1: #db00ff;
+  --color-purple-2: #ff0070;
+
+  --font-family-page: "IBM Plex mono". monospace;
+  --page
+
+
+}
+
