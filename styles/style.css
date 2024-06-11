@@ -137,3 +137,36 @@
   justify-self: end;
 }
 
+
+.main {
+  
+  
+}
+
+.main__section {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
+  line-height: 23.4px;
+  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+}
+
+.main__section-title {
+  font-size: var(--font-size, 18px);
+  color: var(--theme-color, #ff0070);
+}
+
+.main__section-subtitle {
+color: var(--subtitle-color, #000028);
+background: var(--accent-color, #ff0070);
+}
+
+.article-list {
+  display: grid;
+  gap: 20px;
+}
+
+.article {
+  display: grid;
+  gap: 10px;
+}
