@@ -31,7 +31,7 @@
   --rec-decor-visible: visible;
   --color-text: var(--color-pink-2, #f1b2ce);
   --font-family-page: "IBM Plex mono", monospace;
-  --background-color-page: var(--color-black-1, #00);
-  --background-image-page: url("../images/cover-image.png");
+  --background-color-page: var(--color-black-1, ##000028);
+
 }
 

@@ -1,11 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  color: var(--color-text, #f1b2ce);
+  
   font-family: var(--font-family-page, "IBM Plex mono", monospace);
   font-size: var(--font-size, 18px);
   background-color: var(--background-color-page, #000028);
-  background-image: var(--background-image-page, url("../images/cover-image.png"));
+  background-image: var(--background-image-page);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
