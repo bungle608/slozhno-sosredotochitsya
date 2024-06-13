@@ -5,7 +5,7 @@
   font-family: var(--font-family-page, "IBM Plex mono", monospace);
   font-size: var(--font-size, 18px);
   background-color: var(--background-color-page, #000028);
-  background-image: var(--background-image-page);
+  background: var(--background-image-page);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -257,3 +257,4 @@ font-size: inherit;
   min-block-size: 768px;
 
 }
+

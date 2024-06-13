@@ -11,9 +11,19 @@
   */
 
 --background-image-page: url(../images/cover-image-light.png);
+--background-color-page: var(--color-pink, #fff1f7);
+--page-title-color: var(--color-pink-3, #ffc2eb);
+--theme-color: var(--color-black-2, #353430);
+--hover-color: var(--color-black-hover, rgba(50, 49, 45, 0.40));
+--subtitle-color: var(--color-black-2, #353430);
+--accent-color: var(--color-pink-4, #ff8dcb);
+--rec-decor-visible: hidden
+
+}
 
 
-
-
-
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image-page: url("../images/cover-image-light.png");
+  }
 }

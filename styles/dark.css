@@ -14,3 +14,10 @@
   --background-color-page: var(--color-black-1, #000028);
 
 }
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+        --background-image-page: url("../images/cover-image-dark.png");
+  }
+}
