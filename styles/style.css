@@ -1,9 +1,9 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  
   font-family: var(--font-family-page, "IBM Plex mono", monospace);
   font-size: var(--font-size, 18px);
+  color: var(--color-text);
   background-color: var(--background-color-page, #000028);
   background: var(--background-image-page);
   background-repeat: no-repeat;
