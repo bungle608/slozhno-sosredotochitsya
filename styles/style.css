@@ -144,7 +144,10 @@
   gap: 50px;
   grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
   line-height: 23.4px;
-  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  margin-block-start: 60px;
+
 }
 
 .main__section-title {
