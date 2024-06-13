@@ -216,7 +216,7 @@ font-size: inherit;
 }
 
 .gallery-list__item-img-sunset {
-  block-size: clamp(142px, 192px, 260px);
+  
   grid-column: span 2;
   inline-size: 100%;
   block-size: 100%;
@@ -248,4 +248,12 @@ font-size: inherit;
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+}
+
+.footer-text { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 768px;
+
 }
