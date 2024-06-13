@@ -23,7 +23,6 @@
 
 }
 
-
 @media (prefers-color-scheme: dark) {
   :root {
   --background-image-page: url("../images/cover-image-dark.png");
