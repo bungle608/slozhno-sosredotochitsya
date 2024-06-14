@@ -228,7 +228,6 @@
 }
 
 .sunset {
-
   grid-column: span 2;
   inline-size: 100%;
   block-size: 100%;
@@ -270,8 +269,8 @@
   margin-block-start: 19px;
 }
 
-
 @media (max-width: 768px) {
+  
   .header__theme-menu-list {
       display: flex;
       align-items: end;
@@ -324,7 +323,7 @@
 }
 
 @media (max-width: 375px) {
-
+  
   .envelope {
       gap: 20px
   }
@@ -354,9 +353,9 @@
       gap: 22px;
   }
 
-.main {
-  gap: 12px;
-}
+  .main {
+      gap: 12px;
+  }
 
   .main__section-title {
       margin-block-start: 35px;
@@ -372,12 +371,10 @@
       gap: 10px;
   }
 
-
   .gallery-list {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: minmax(auto, 142px);
       gap: 10px;
-
   }
 
   .ice-cream {

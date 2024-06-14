@@ -18,8 +18,7 @@
   --color-text: var(--color-black-2, #353430);
   --subtitle-color: var(--color-black-2, #353430);
   --accent-color: var(--color-pink-4, #ff8dcb);
-  --rec-decor-visible: hidden
-
+  --rec-decor-visible: hidden;
 }
 
 
@@ -33,7 +32,6 @@
       --color-text: var(--color-black-2, #353430);
       --subtitle-color: var(--color-black-2, #353430);
       --accent-color: var(--color-pink-4, #ff8dcb);
-      --rec-decor-visible: hidden
-  
+      --rec-decor-visible: hidden;
   }
 }
