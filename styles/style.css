@@ -216,6 +216,7 @@
 
 .section-how__subtitle-margin-block-start {
   margin-block-start: 23px;
+  font-weight: var(--font-normal, 400);
 }
 
 .gallery {
