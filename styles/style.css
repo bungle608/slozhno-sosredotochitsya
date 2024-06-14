@@ -223,7 +223,7 @@ font-size: inherit;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(auto, 260px) minmax(auto, 315px) minmax(auto,435px);
-  gap: 12px;
+  gap: 21px;
 }
 
 .sunset {
@@ -261,16 +261,12 @@ font-size: inherit;
   object-fit: cover;
 }
 
-.footer {
-  place-items: center
-}
-
 .footer-text { 
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-block-start: 59px;
+  margin-block-start: 44px;
 
 }
 
@@ -279,13 +275,44 @@ font-size: inherit;
     display: flex;
     align-items: end;
     flex-direction: column;
-    margin-block-start: 36px;
+    margin-block-start: 165px;
   }
+
+  .page-title {
+    margin-block-end: 118px;
+  }
+
+.envelope {
+  gap: 0;
+}
+
+.subtitle {
+  max-width: 360px;
+  margin-block-end: 73px;
+}
+
+.main {
+  gap: 20px;
+}
+
+.main__section {
+  gap: 22px;
+}
+
+.article-list {
+  gap: 22px;
+}
 
 .section-what {
   grid-template-columns: repeat(1, 1fr);
   grid-column-start: span 2;
 }
+
+.margin-start__subtitle {
+  margin-block-start: 61px;
+}
+
+
 
 }
 
@@ -293,6 +320,10 @@ font-size: inherit;
   .main__section {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.subtitle {
+  
 }
 
 @media (max-width: 375px) {
