@@ -18,6 +18,7 @@
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   block-size: max(100vb, 640px);
+  gap: 84px;
 }
 
 .header {
@@ -123,7 +124,8 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 80%;
   text-shadow: 4px 4px 0px var(--accent-color, #ff0070);
-  font-weight: var(--font-weight, 700); 
+  font-weight: var(--font-weight, 700);
+  align-self: center; 
 }
 
 .subtitle {
@@ -136,17 +138,17 @@
 
 .main {
   display: grid;
-  gap: 9px;
+  gap: 22px;
 }
 
 .main__section {
   display: grid;
-  gap: 50px;
+  gap: 20px;
   grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
   line-height: 23.4px;
-  padding-inline-start: 11px;
-  padding-inline-end: 8px;
-  margin-block-start: 7px;
+  padding-inline-start: 16px;
+  padding-inline-end: 20px;
+  margin-block-start: 60px;
 
 }
 
@@ -162,7 +164,7 @@ font-size: inherit;
 }
 
 .margin-start__subtitle {
-  margin-block-start: 39px;
+  margin-block-start: 69px;
 }
 
 .link {
@@ -192,7 +194,7 @@ font-size: inherit;
 
 .article {
   display: grid;
-  gap: 10px;
+  gap: 8px;
 }
 
 .section-what {
@@ -212,8 +214,8 @@ font-size: inherit;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding-inline-start: 11px;
-  padding-inline-end: 11px;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
 }
 
 .gallery-list {
@@ -266,7 +268,7 @@ font-size: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-block-size: 731px;
+  min-block-size: 884px;
 
 }
 
