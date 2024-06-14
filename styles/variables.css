@@ -9,10 +9,10 @@
   --color-pink-2: #f1b2ce;
   --color-pink-3: #ffc2e6;
   --color-pink-4: #ff8dcb;
-  
+
   --color-black-1: #000028;
   --color-black-2: #353430;
-  --color-black-3: rgba(50, 49, 45, 0.40); 
+  --color-black-3: rgba(50, 49, 45, 0.40);
   --color-black-hover: rgba(50, 49, 45, 0.40);
 
   --color-purple-1: #db00ff;
@@ -28,13 +28,10 @@
   --hover-color: var(--color-purple-hover, rgba(255, 0, 112, 0.40));
   --subtitle-color: var(--color-black-1, #000028);
   --theme-color: var(--color-purple-2, #ff0070);
-  --accent-color: var(--color-purple-2, #ff0070);  
+  --accent-color: var(--color-purple-2, #ff0070);
   --page-title-color: var(--color-purple-1, #db00ff);
   --rec-decor-visible: visible;
   --color-text: var(--color-pink-2, #f1b2ce);
   --font-family-page: "IBM Plex mono", monospace;
   --background-color-page: var(--color-black-1, #000028);
-  
-
 }
-
