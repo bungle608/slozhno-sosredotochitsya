@@ -293,28 +293,35 @@ font-size: inherit;
 
 .main {
   gap: 20px;
-}
+  }
 
 .main__section {
   gap: 22px;
-}
+  }
 
 .article-list {
   gap: 22px;
-}
+  } 
 
 .section-what {
   grid-template-columns: repeat(1, 1fr);
   grid-column-start: span 2;
-}
+  } 
 
 .margin-start__subtitle {
   margin-block-start: 61px;
+  }
+
+.gallery-list {
+  grid-template-rows: minmax(auto, 192px) minmax(auto, 230px) minmax(auto, 325px);
+  }
+
+.footer-text {
+  margin-block-end: 0;
 }
 
-
-
 }
+
 
 @media (max-width: 500px) {
   .main__section {
