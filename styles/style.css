@@ -334,7 +334,7 @@ font-size: inherit;
 }
 
   .header__theme-menu-list {
-  margin-block-start: 57px;
+  margin-block-start: 60px;
 }
 
   .main__section {
@@ -346,9 +346,12 @@ font-size: inherit;
   }
 
 
+.article-list {
+  gap: 22px;
+}
 
 .main__section-title {
-  margin-block-start: 30px;
+  margin-block-start: 35px;
 }
 
 .margin-start__subtitle {

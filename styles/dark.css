@@ -19,13 +19,13 @@
   --color-text: var(--color-pink-2, #f1b2ce);
   --font-family-page: "IBM Plex mono", monospace;
   --background-color-page: var(--color-black-1, #000028);
-  --background-image-page: url("../images/cover-image-dark.png");
+  --background-image-page: url(../images/cover-image-dark.png);
 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --background-image-page: url("../images/cover-image-dark.png");
+    --background-image-page: url(../images/cover-image-dark.png);
   --background-color-page: var(--color-black-1, #000028);
   --hover-color: var(--color-purple-hover, rgba(255, 0, 112, 0.40));
   --subtitle-color: var(--color-black-1, #000028);
