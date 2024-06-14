@@ -136,7 +136,7 @@
 
 .main {
   display: grid;
-  gap: 80px;
+  gap: 9px;
 }
 
 .main__section {
@@ -144,9 +144,9 @@
   gap: 50px;
   grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
   line-height: 23.4px;
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
-  margin-block-start: 60px;
+  padding-inline-start: 11px;
+  padding-inline-end: 8px;
+  margin-block-start: 7px;
 
 }
 
@@ -159,6 +159,10 @@
 color: var(--subtitle-color, #000028);
 background: var(--accent-color, #ff0070);
 font-size: inherit;
+}
+
+.margin-start__subtitle {
+  margin-block-start: 39px;
 }
 
 .link {
@@ -205,19 +209,18 @@ font-size: inherit;
 }
 
 .gallery {
- 
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
+  gap: 8px;
+  padding-inline-start: 11px;
+  padding-inline-end: 11px;
 }
 
 .gallery-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(auto, 260px) minmax(auto, 315px) minmax(auto,435px);
-  gap: 20px;
+  gap: 12px;
 }
 
 .sunset {
@@ -259,7 +262,7 @@ font-size: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-block-size: 768px;
+  min-block-size: 731px;
 
 }
 
@@ -268,8 +271,7 @@ font-size: inherit;
     display: flex;
     align-items: end;
     flex-direction: column;
-    align-content: center;
-    block-size: 300px;
+    margin-block-start: 31px;
   }
 
 .section-what {
@@ -288,7 +290,17 @@ font-size: inherit;
 @media (max-width: 375px) {
   .main__section {
     grid-template-columns: repeat(1, 1fr);
+    gap: 19px;
   }
+
+.main__section-title {
+  margin-block-start: 34px;
+}
+
+  .header__theme-menu-list {
+    block-size: 162px;
+  }
+
 
   .gallery-list {
     grid-template-columns: repeat(2, 1fr);
