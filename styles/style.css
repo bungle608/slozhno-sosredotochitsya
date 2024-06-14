@@ -330,7 +330,7 @@
   }
 
   .page-title:not(:last-child) {
-      margin-block-end: 38px;
+      margin-block-end: 42px;
   }
 
   .header__theme-menu-list {
@@ -346,17 +346,24 @@
       padding-inline-end: 10px;
   }
 
-
-  .article-list {
-      gap: 21px;
+  .article {
+    gap: 8px;
   }
 
+  .article-list {
+      gap: 22px;
+  }
+
+.main {
+  gap: 12px;
+}
+
   .main__section-title {
-      margin-block-start: 30px;
+      margin-block-start: 35px;
   }
 
   .margin-start__subtitle {
-      margin-block-start: 29px;
+      margin-block-start: 38px;
   }
 
   .gallery {
