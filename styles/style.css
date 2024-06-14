@@ -258,6 +258,10 @@ font-size: inherit;
   object-fit: cover;
 }
 
+.footer {
+  height: 100vh;
+}
+
 .footer-text { 
   display: flex;
   justify-content: center;
@@ -271,7 +275,7 @@ font-size: inherit;
     display: flex;
     align-items: end;
     flex-direction: column;
-    margin-block-start: 31px;
+    margin-block-start: 36px;
   }
 
 .section-what {
@@ -298,7 +302,7 @@ font-size: inherit;
 }
 
   .header__theme-menu-list {
-    block-size: 162px;
+    block-size: 136px;
   }
 
 
